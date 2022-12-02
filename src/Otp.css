@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap');
+.otp{
+    width:100vw;
+    height:100vh;
+    background-image: url("./images/background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.otpimg{
+    background-color: #8BB6B2;
+    width:17rem;
+    height:25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otpimg img{
+    width:15rem;
+}
+.otpfields{
+    background-color: white;
+    width:20rem;
+    height:25rem;
+    display: flex;
+    padding-left: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.otpfields h2{
+    position: absolute;
+    top:2rem;
+}
+.otpfields p{
+    position: absolute;
+    top:4rem;
+    font-size: 12px;
+    color: #9E9A9A;
+}
+.verify{
+    width:3rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color:#FA6B51;
+    color:white;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    top:18rem;
+}
+.enter-otp{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,124 @@
+.login{
+    width:100vw;
+    height:100vh;
+    position: absolute;
+    top: 0;
+    background-image: url(./images/background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+.loginimg{
+    background-color: #8BB6B2;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginimg img{
+    width:23rem;
+}
+.logininp{
+    position: relative;
+    background-color: white;
+    height: 30rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputfields{    
+    display: flex;
+    border: 2px solid #5b5a5a;
+    margin:1rem;
+    border-radius: 3px;
+}
+.inputfields input{
+    text-indent: 5px;
+    width:16rem;
+    outline: 0;
+    border: 0;
+}
+.inputimg{
+    background-color: #D9D9D9;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputimg img{
+    width:12px;
+}
+.pswd-reset{
+    position:relative;
+    left:5rem;
+    text-decoration: none;
+}
+.checkbox{
+    width:18rem;
+    margin:10px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+/* .captcha{
+    width:1px;
+    height:1px;
+} */
+.remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    width:10rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color:#FA6B51;
+    color:white;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.registerbtn{
+    text-decoration: none;
+    margin:0 10px;
+}
+.hide{
+    display: none;
+}
+.show_hide{
+    background-color: #D9D9D9;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show_hide img{
+    width:12px;
+}
+.input_pswd input{
+    width:14.5rem;
+}
+.error_display{
+    font-weight: 200;
+    font-size: 13px;
+    border:1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    color:red;
+     margin-top: 5px;;
+}
+@media screen and (max-width:701px){
+    .loginimg{
+        display: none;
+    }
+}

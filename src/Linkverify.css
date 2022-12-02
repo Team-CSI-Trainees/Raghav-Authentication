@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap');
+.success{
+    width:100vw;
+    height:100vh;
+    background-image: url("./images/background.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.success div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffad;
+    width:40rem;
+    height: 25rem;
+    border-radius: 15px;
+}
+.success div p{
+    text-align: center;
+}
+.successback{
+    width:auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color:#FA6B51;
+    color:white;
+    box-shadow: 1px 1px 5px black;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 2rem;
+}
