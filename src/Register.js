@@ -10,7 +10,7 @@ const Register = () => {
   useEffect(()=>{
     if(!localStorage.getItem('register'))
     {
-      navigate("/");
+      navigate("/Raghav-Authentication/");
     }
   },[])
   
@@ -165,7 +165,7 @@ const Register = () => {
       })
       .then(function (response) {
         console.log(response);
-        navigate("/verify_email")
+        navigate("/Raghav-Authentication/verify_email")
         localStorage.removeItem('register');
       })
       .catch(function (error) {
@@ -316,7 +316,7 @@ const Register = () => {
 
           <div className='not-account'>
             <p>Already have an account?</p>
-            <NavLink to="/" className="registerbtn" onClick={remove_register}>Log In</NavLink>
+            <NavLink to="/Raghav-Authentication/" className="registerbtn" onClick={remove_register}>Log In</NavLink>
           </div>
         </form>
 

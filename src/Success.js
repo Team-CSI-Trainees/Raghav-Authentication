@@ -9,7 +9,7 @@ const Success = () => {
         <div>
             <img src={successimg}/>
             <p>Password sent to your registered Email.</p>
-            <NavLink to="/" className="successback">Login Now</NavLink>
+            <NavLink to="/Raghav-Authentication/" className="successback">Login Now</NavLink>
         </div>
     </div>
   )

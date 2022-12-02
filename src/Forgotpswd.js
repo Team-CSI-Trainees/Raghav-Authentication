@@ -10,7 +10,7 @@ const Forgotpswd = () => {
   useEffect(()=>{
     if(!localStorage.getItem('forget_pswd'))
     {
-      navigate("/");
+      navigate("/Raghav-Authentication/");
     }
   },[])
   const [user_email,setuser_email]=useState("");
@@ -25,12 +25,12 @@ const Forgotpswd = () => {
       })
       .then(function (response) {
         console.log(response);
-        navigate("/success");
+        navigate("/Raghav-Authentication/success");
         localStorage.removeItem('forget_pswd');
       })
       .catch(function (error) {
         console.log(error);
-        navigate("/about");
+        navigate("/Raghav-Authentication/about");
         setnot_registered(false);
       });
   }
@@ -54,7 +54,7 @@ const Forgotpswd = () => {
              <div>
              <input type="submit" className='registers send' value="Send" onClick={send_resetreq}/>
                 </div>
-              <NavLink to="/" className="loginback" onClick={return_login}>Back to Login</NavLink>
+              <NavLink to="/Raghav-Authentication/" className="loginback" onClick={return_login}>Back to Login</NavLink>
            </div>
         </div>
     </div>

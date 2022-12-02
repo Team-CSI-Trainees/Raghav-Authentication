@@ -10,7 +10,7 @@ const Home = () => {
   useEffect(()=>{
   if(!localStorage.getItem('token'))
   {
-    navigate("/");
+    navigate("/Raghav-Authentication/");
   }
 },[])
 
@@ -33,7 +33,7 @@ const Home = () => {
        <div className="join">
          
          <h3>Welcome to our Website.</h3>
-         <NavLink to="/" className="joinnow">Join Now</NavLink>
+         <NavLink to="/Raghav-Authentication/" className="joinnow">Join Now</NavLink>
        </div>
     </div>
   )

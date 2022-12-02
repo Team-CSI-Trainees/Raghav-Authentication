@@ -46,19 +46,21 @@ const LoginPage = () => {
   }
 
   const login_complete=()=>{
+    if(verified==true){
     axios.post('https://account-authentication.herokuapp.com/auth/login/', {
         roll_no: formvalues.roll_no,
         password: formvalues.password,
       })
       .then(function (response) {
         console.log(response.data.tokens);
-        navigate("/home");
+        navigate("/Raghav-Authentication/home");
         localStorage.setItem('token',response.data.tokens)
       })
       .catch(function (error) {
         console.log(error);
         setdisplay_error(true)
       });
+    }
   }
 
   const register_now =()=>{
@@ -90,7 +92,7 @@ const LoginPage = () => {
                 <div className={show_pswd?'hide':"show_hide"} onClick={show_password}><img src={eye}/></div>
                 <div className={show_pswd?'show_hide':"hide"} onClick={hide_password}><img src={hidden}/></div>
               </div>
-              <NavLink to="/about" className="pswd-reset" onClick={pswd_handler}>Forget Password?</NavLink>
+              <NavLink to="/Raghav-Authentication/about" className="pswd-reset" onClick={pswd_handler}>Forget Password?</NavLink>
               <div className="checkbox">
                 <div>
                 <ReCAPTCHA className='captcha'
@@ -112,7 +114,7 @@ const LoginPage = () => {
               </div>
               <div className='register'>
                 <p>Don't have an account?</p>
-                <NavLink to="/register" className="registerbtn" onClick={register_now}>Register</NavLink>
+                <NavLink to="/Raghav-Authentication/register" className="registerbtn" onClick={register_now}>Register</NavLink>
               </div>
           </div>
           

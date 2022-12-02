@@ -14,14 +14,14 @@ function App() {
     <>
     
     <Routes>
-      <Route path="/" element={<LoginPage/>}/>
-      <Route path="/about" element={<Forgotpswd/>}/>
-      <Route path="/register" element={<Register/>}/>
-      <Route path="/home" element={<Home/>}/>
-      <Route path="/verify" element={<Otp/>}/>
-      <Route path="/success" element={<Success/>}/>
-      <Route path="/verify_email" element={<Linkverify/>}/>
-      <Route path="/*" element={<LoginPage/>}/>
+      <Route path="/Raghav-Authentication/" element={<LoginPage/>}/>
+      <Route path="/Raghav-Authentication/about" element={<Forgotpswd/>}/>
+      <Route path="/Raghav-Authentication/register" element={<Register/>}/>
+      <Route path="/Raghav-Authentication/home" element={<Home/>}/>
+      <Route path="/Raghav-Authentication/verify" element={<Otp/>}/>
+      <Route path="/Raghav-Authentication/success" element={<Success/>}/>
+      <Route path="/Raghav-Authentication/verify_email" element={<Linkverify/>}/>
+      <Route path="/Raghav-Authentication/*" element={<LoginPage/>}/>
     </Routes>
     </>
   );

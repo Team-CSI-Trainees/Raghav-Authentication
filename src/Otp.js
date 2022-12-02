@@ -39,7 +39,7 @@ const Otp = () => {
         </div> */}
         {/* <div className={not_registered?'registered_not':"hide"}>This Email is not registered</div> */}
         <NavLink to="" className="verify" onClick={checkpswd}>Verify</NavLink>
-        <NavLink to="/" className="loginback">Back to Login</NavLink>
+        <NavLink to="/Raghav-Authentication/" className="loginback">Back to Login</NavLink>
       </div>
     </div>
   )
