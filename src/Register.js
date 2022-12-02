@@ -293,7 +293,7 @@ const Register = () => {
           <div className="checkbox">
             <div className='captcha recaptcha'>
             <ReCAPTCHA
-               sitekey="6LciukgjAAAAAADY6N0xH3JeKgyGGtrvF9fD4X8Y"
+               sitekey="6Lfz404jAAAAAH2wqkCJSE0mhWnb2luA57ctRVpU"
                onChange={onChange}
             />
               {/* <input type="checkbox" />
