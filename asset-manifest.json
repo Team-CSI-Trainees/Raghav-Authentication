@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Raghav-Authentication/static/css/main.88c41dec.css",
-    "main.js": "/Raghav-Authentication/static/js/main.de2ee9d7.js",
+    "main.js": "/Raghav-Authentication/static/js/main.3db6df91.js",
     "static/media/background.png": "/Raghav-Authentication/static/media/background.693280a6d6b20504b4b6.png",
     "static/media/homeback.png": "/Raghav-Authentication/static/media/homeback.b0bca2093b38b9bb82b1.png",
     "static/media/loginimg.png": "/Raghav-Authentication/static/media/loginimg.057e46c8168b4c3d928c.png",
@@ -11,10 +11,10 @@
     "static/media/registerimg.png": "/Raghav-Authentication/static/media/registerimg.d207c27c4e4eb27142ac.png",
     "index.html": "/Raghav-Authentication/index.html",
     "main.88c41dec.css.map": "/Raghav-Authentication/static/css/main.88c41dec.css.map",
-    "main.de2ee9d7.js.map": "/Raghav-Authentication/static/js/main.de2ee9d7.js.map"
+    "main.3db6df91.js.map": "/Raghav-Authentication/static/js/main.3db6df91.js.map"
   },
   "entrypoints": [
     "static/css/main.88c41dec.css",
-    "static/js/main.de2ee9d7.js"
+    "static/js/main.3db6df91.js"
   ]
 }
