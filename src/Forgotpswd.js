@@ -20,7 +20,7 @@ const Forgotpswd = () => {
     setuser_email(e.target.value);
   }
   const send_resetreq=()=>{
-    axios.post('https://account-authentication.herokuapp.com/auth/request-reset-email/', {
+    axios.post('https://localhost:8000/auth/request-reset-email/', {
         email: user_email,
       })
       .then(function (response) {

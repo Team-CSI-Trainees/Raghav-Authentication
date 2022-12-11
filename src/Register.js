@@ -152,7 +152,7 @@ const Register = () => {
     if (error === true && verified==true) 
     { 
       console.log(formvalues);
-      axios.post('https://account-authentication.herokuapp.com/auth/register/', {
+      axios.post('http://localhost:8000/auth/register/', {
         full_name: formvalues.full_name,
         roll_no: formvalues.roll_no,
         year: formvalues.year,
